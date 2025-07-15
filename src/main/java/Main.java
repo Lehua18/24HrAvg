@@ -15,7 +15,7 @@ public class Main {
         boolean stop = false;
         while (!stop) {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Please enter the event type.");
+            System.out.println("Please type 'stop' if you would like to end the program.");
             String eventType = scan.nextLine();
             if(!eventType.equalsIgnoreCase("stop")) {
                 System.out.println("Please enter the date and time of your event in the form yyyy-MM-dd");
